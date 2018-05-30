@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Main Test Suite" parallel="none" verbose="1">
-    <test name="Grid Chrome Test">
+<suite name="Main Test Suite" preserve-order="true">
+    <test name="Gmail Test">
         <classes>
-        <class name="com.webtest.test.EMail"/>
+        <class name="com.gajendran.eg.test.EMail"/>
         </classes>
     </test>
 </suite>
